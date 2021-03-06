@@ -1,0 +1,136 @@
+body{
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+.central{
+    text-align: center;
+    float:center;
+    padding: 20 20px;
+    align-items: center;
+}
+
+#googlesrch{
+    text-align: center;
+    float:center;
+    margin-top: 2%;
+    border-radius: 4px;
+    border: none;
+    background: #f8f9fa;
+    color: #3c4043;
+    height: 36px; line-height: 27px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    min-width: 54px;
+    padding: 0 16px;
+}
+
+#googlesrch input[type=submit]:hover{
+    border: 1px solid #f8f9fa;
+}
+
+#q {
+    outline: none;
+    border: none;
+    font-size: medium;
+    margin: auto;
+    min-width: 85%;
+    width: 85%;
+    height:30px;
+    
+
+}
+#imgnormal{
+    margin-top: 6%;
+}
+
+.search{
+    margin: auto;
+   
+    padding:5px;
+    width: 30%;
+    
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+ /*  padding: 10px 10px ;*/
+}
+
+
+
+.advinput{
+    margin-top:20px;
+    height: 25px;
+    width: 40%;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 1px 8px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.advsearch{
+    text-align: left;
+    width: 75%
+}
+
+#as_q{
+    margin-left: 100px;
+    
+}
+
+#as_epq{
+    margin-left: 28.5px;
+}
+
+#as_oq{
+    margin-left: 73px;
+}
+
+#as_eq{
+    margin-left: 63px;
+}
+
+#advsrchbtn{
+    background-color: #4d90fe;
+    color: #fff;
+    border: 1px solid #3079ed;
+    box-shadow: none;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border-radius: 2px;
+    -webkit-user-select:none;
+    user-select:none;
+    line-height:100%;
+    height:30px;
+    min-width:120px;
+}
+
+#back{
+   
+    text-decoration: none;
+}
+
+#back div{
+    padding:5px;
+    background-color: #3079ed;
+    width: 5%;
+    height: 15px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:#fff;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+#advimg{
+    width:200px
+}
+
+.right{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 200px;
+   float: right
+}
