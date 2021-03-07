@@ -11,7 +11,7 @@ body{
     height: 25%;
     text-align: center;
     margin:0px;
-    margin-top: 18%;
+    margin-top: 12%;
 }
 
 .imgbox img{
@@ -23,6 +23,18 @@ body{
     text-align: center;
     width: 272px;
    
+}
+
+.imgbox span{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 189px;
+    right: 0px;
+    text-align: center;
+    width: 30px;
+    margin-top: 75px;
+    color: #4285f4;
 }
 
 #imgnormal{
@@ -38,7 +50,7 @@ body{
 #googlesrch{
     text-align: center;
     float:center;
-    margin-top: 2%;
+    margin-top: 5%;
     border-radius: 4px;
     border: none;
     background: #f8f9fa;
@@ -76,7 +88,7 @@ body{
 .search{
     height:200px;
     margin: auto;
-    margin-top: 25%;
+    margin-top: 20%;
     padding:5px;
     width: 560px;
     min-width: 303px;
@@ -100,14 +112,23 @@ body{
     width: 40%;
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
-    padding: 1px 8px;
+    padding: 10px 80px;
+    margin:10px;  
     font-size: 13px;
     font-weight: 400;
 }
 
 .advsearch{
     text-align: left;
-    width: 75%
+    width: 75%;
+    height: 70%;
+}
+
+
+#advsearch{
+    text-align: left;
+    width: 10%;
+    height: 5%;
 }
 
 #as_q{
@@ -147,14 +168,14 @@ body{
 }
 
 #back div{
-    padding:5px;
-    background-color: #3079ed;
+    padding:10px;
+    /*background-color: #3079ed;*/
     width: 100%;
     height: 15px;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    color:#fff;
+    color:#000;
     border-radius: 2px;
     font-size: 13px;
     font-weight: 400;
@@ -173,4 +194,59 @@ body{
     height: 50px;
     width:400px;
     float: right
+}
+
+
+.navbar{
+    width:100%;
+    height: 5%;
+    background-color: #f1f1f1;
+    margin-top:-10px;
+    margin-left:-10px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+
+.navbar img{
+    text-align: left;
+    width: 5.5%;
+    height: 6%;
+    margin: 13px;
+}
+
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.infopage{
+    margin: 25px 35px;
+    font-size:20px;
+    
+}
+
+.infopage label{
+    margin-left:10px;
+    font-weight: inherit;
+    font-style: inherit;
+    color:#d93025;
+    font-size: 100%;
+    
+}
+
+.advsrchbox{
+    width:100%;
+    height: 50%;
+}
+
+.combine-input{
+    margin:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.combine-input input{
+    height:25px;
+    width:50%;
+
 }
