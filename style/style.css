@@ -323,11 +323,10 @@ body{
     fill:currentColor;
     line-height: 24px;
     color:#4285f4;
-    padding-right: 10px;
-    padding-top: 5px;
-    width:5%;
-   
+       
 }
+
+
 
 .svg-search-img svg {
     float:right;
@@ -363,6 +362,8 @@ body{
     width: 5%;
     padding:0;
     padding-top:8px;
+    margin-right:8px;
+    margin-top:0px;
 }
 
 .mic{
@@ -376,4 +377,24 @@ body{
     padding: 0 8px;
     width: 24px;
     line-height: 44px;
+    margin-right:0px;
+}
+
+.btn-search{
+    text-decoration: none;
+    border:none;
+    width:10%;
+    height:80%;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-right: 10px;
+    
+}
+
+.svg-search-img:focus{
+    outline: none;
+}
+
+.btn-search:focus{
+    outline: none;
 }
